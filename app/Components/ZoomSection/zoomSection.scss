@@ -1,0 +1,26 @@
+.zoom {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  border: 1px solid var(--color-border);
+
+  .image {
+    border-radius: 8px;
+
+    img {
+      border-radius: 8px;
+    }
+  }
+
+  .monkey {
+    position: absolute;
+    top: 10%;
+    right: 3rem;
+  }
+
+  .smoke {
+    position: absolute;
+    top: 10%;
+    left: 3rem;
+  }
+}
