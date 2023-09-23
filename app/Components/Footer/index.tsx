@@ -19,8 +19,7 @@ export default function Footer() {
       <nav>
         <div className="logo-con">
           <div className="logo">
-            <Image src={logo} width={36} alt="logo" />
-            <h2>Logo</h2>
+            <Image src={logo} width={100} alt="logo" />
           </div>
           <div className="input">
             <input type="text" placeholder="Subscribe here..." />
@@ -58,7 +57,7 @@ export default function Footer() {
         </div>
       </nav>
       <p className="rights">
-        <a href="">©2023 The Code Dealer. All rights reserved.</a>
+        <a href="">©2023 Naeem Hussain. All rights reserved.</a>
         <a href="">Privacy policy | Terms of service</a>
       </p>
     </footer>
