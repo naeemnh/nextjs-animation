@@ -1,0 +1,16 @@
+button {
+  padding: 0.8rem 2rem;
+  border-radius: 30px;
+  border: 2px solid $color-border;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: $color-bg;
+
+  &:hover {
+    background-color: $color-border;
+    color: white;
+  }
+}
